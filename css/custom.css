@@ -11,24 +11,30 @@ ul.nav{
 
 #get-involved{
 background-color:#f5f5f5;
+margin-top: 50px;
 
 }
 
 .btn-lg {
-	font-size:36px;
+		font-size:36px;
+
+	
 }
 
 .jumbotron{
 	background-image: url('../images/Sales.jpg');
 	background-size:100% 100%;
-	color:white;
 	font-family: 'Raleway', sans-serif;
 	text-align:center;
 
 }
+.jumbotron a:hover{
+	text-decoration:none;
+	opacity:.9;
+}
 
 #logo{
-	margin-top:-30px;
+	padding-bottom: 40px;
 }
 .jumbotron mark{
 	opacity:.8;
@@ -39,14 +45,15 @@ background-color:#f5f5f5;
 .jumbotron h1{
 	margin-top:0px;
 	margin-bottom:50px;
+	color:rgb(255,255,255);
 }
 
 .jumbotron p{
 	margin-bottom:30px;
 	font-weight: 500;
 	padding: 0 50px;
-	color:rgb(195,21,22);
 	opacity:1;
+	
 }
 
 .homepage{
@@ -68,17 +75,20 @@ background-color:#f5f5f5;
 
 .homepage p{
 	font-weight:400;
+
 } 
+
+#paragraph{
+	font-size:18px;
+	}
 
 .homepage a{
 	margin-top:25px;
-	color:rgb(230,60,60);
 }
 
-.homepage a:hover{
-	color:rgb(255,95,95);
+.homepage a:hover {
 	text-decoration:none;
-	opacity:.8;
+	opacity:.7;
 }
 
 .homepage hr{
