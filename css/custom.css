@@ -91,7 +91,14 @@ margin-top: 50px;
 
 #paragraph{
 	font-size:18px;
+	padding-bottom:50px;
 	}
+
+#paragraph2{
+	font-size:18px;
+	padding-bottom:50px;
+}
+
 
 .homepage a{
 	margin-top:25px;
@@ -152,7 +159,7 @@ footer h3{
 	.jumbotron h1{
 		font-size: 56px;
 		margin-bottom: 30px;
-		
+	
 	}
 }
 
