@@ -162,11 +162,40 @@ footer h3{
 
 /* Responsive styling */
 
+@media (max-width: 1891px){
+	#logo-indent{
+		left:200px;
+		top:2px;
+	}
+
+}
+
+@media (max-width: 1612px){
+	#logo-indent{
+		left:100px;
+		top:2px;
+	}
+
+}
+
+@media (max-width: 1369px){
+	#logo-indent{
+		left:25px;
+		top:2px;
+	}
+
+}
+
 @media (max-width: 1199px) {
 	.jumbotron h1{
 		font-size: 56px;
 		margin-bottom: 30px;
 	
+	}
+
+	#logo-indent{
+		left:600px;
+		top:2px;
 	}
 }
 
@@ -182,9 +211,14 @@ footer h3{
 		padding-top: 20px;
 		padding-bottom:20px;
 	}
+
+	#logo-indent{
+		left:10px;
+		top:2px;
+	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 836px) {
 	.jumbotron h1{
 		font-size: 24px;
 	}
@@ -201,8 +235,26 @@ footer h3{
 	.homepage p{
 		font-size: 18px;
 	}
-	
-	
+	#logo-indent{
+		left:400px;
+		top:2px;
+	}
+}
+
+@media (max-width: 736px){
+	#logo-indent{
+		left:370px;
+		top:2px;
+	}
+
+}
+
+@media (max-width: 712px){
+	#logo-indent{
+		left:320px;
+		top:2px;
+	}
+
 }
 
 
