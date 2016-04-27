@@ -32,14 +32,12 @@ ul.nav{
 	padding-bottom: 40px;
 }
 #logo-indent{
-	position:absolute;	
 	height:50px;
 	width:50px;
-	left:330px;
-	top:2px;
-
-
+	margin-left:-230px;
+	margin-top:2px;
 }
+
 .jumbotron mark{
 	opacity:.8;
 	background-color:rgb(255,95,95);
