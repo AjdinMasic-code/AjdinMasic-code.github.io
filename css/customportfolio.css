@@ -37,7 +37,7 @@ ul.nav{
 
 .jumbotron hr{
 	border-top: 2px solid rgb(0,0,0);
-	width: 700px;
+	width: 75%;
 	margin-top: 15px;
 	padding-bottom:100px;
 }
@@ -53,6 +53,10 @@ ul.nav{
 	font-weight:300;
 	color:rgb(0,0,0);
 	padding-bottom:50px;
+}
+
+#website1,#blog,#lion{
+	width:45%;
 }
 
 #logo{
