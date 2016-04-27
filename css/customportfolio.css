@@ -56,11 +56,12 @@ ul.nav{
 }
 
 #website1,#blog,#lion{
-	width:45%;
+	width:65%;
 }
 
 #logo{
-	padding-top:50px;
+	padding-top:25px;
+	padding-bottom:50px;
 }
 
 #logo-indent{
