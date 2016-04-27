@@ -126,3 +126,9 @@ footer h3{
 		font-size:10px;	
 	}
 }
+
+@media (max-width: 836px) {
+	#website1,#blog,#lion{
+	width:100%;
+}
+}
