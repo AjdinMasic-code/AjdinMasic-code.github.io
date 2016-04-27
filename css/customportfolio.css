@@ -13,8 +13,8 @@ ul.nav{
 	height:55px;
 }
 
-.button{
-	background-color:rgb(0,0,0);
+#title{
+	padding-left:90px;
 }
 
 .jumbotron{
@@ -75,6 +75,7 @@ footer{
 footer h3{
 	color:rgb(0,0,0);
 }
+
 
 
 /* Responsive styling */

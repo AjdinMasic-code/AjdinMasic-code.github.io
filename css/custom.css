@@ -11,6 +11,10 @@ ul.nav{
 	height:55px;
 }
 
+#title{
+	padding-left:90px;
+}
+
 .btn-lg {
 		font-size:36px;
 }
@@ -35,7 +39,7 @@ ul.nav{
 	height:50px;
 	width:50px;
 	margin-left:-230px;
-	margin-top:2px;
+	margin-top:auto;
 }
 
 .jumbotron mark{
