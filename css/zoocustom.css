@@ -1,0 +1,248 @@
+body{
+background: rgba(205,101,182,0.93);/* Old Browsers */
+background: -moz-linear-gradient(top, rgba(205,101,182,0.93) 0%, rgba(243,208,196,0.93) 0%, rgba(243,208,196,0.24) 60%); /* FF3.6+ */
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(205,101,182,0.93)), color-stop(0%, rgba(243,208,196,0.93)), color-stop(60%, rgba(243,208,196,0.24)));/* Chrome, Safari4+ */
+background: -webkit-linear-gradient(top, rgba(205,101,182,0.93) 0%, rgba(243,208,196,0.93) 0%, rgba(243,208,196,0.24) 60%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(205,101,182,0.93) 0%, rgba(243,208,196,0.93) 0%, rgba(243,208,196,0.24) 60%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(205,101,182,0.93) 0%, rgba(243,208,196,0.93) 0%, rgba(243,208,196,0.24) 60%); /* IE 10+ */
+background: linear-gradient(to bottom, rgba(205,101,182,0.93) 0%, rgba(243,208,196,0.93) 0%, rgba(243,208,196,0.24) 60%);/* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cd65b6', endColorstr='#f3d0c4', GradientType=0 );/* IE6-9 */
+
+}
+
+.container{
+  font-family: 'Old Standard TT', serif;
+}
+
+.nav{
+  border:3px solid;
+  border-color:rgb(189,229,242);
+  text-transform:uppercase;
+}
+
+.jumbotron{
+  background-image:url("../images/elephant.jpg");
+  background-size: 100% 100%;
+  color:rgba(255,255,255,.9);
+  padding-bottom:300px;
+}
+
+.text-muted{
+  text-transform:uppercase;
+}
+
+.marketing{
+background: rgba(243,208,196,0.93);
+/* Old Browsers */background: -moz-linear-gradient(top, rgba(243,208,196,0.93) 0%, rgba(189,229,242,0.93) 0%, rgba(189,229,242,0.24) 60%);
+ /* FF3.6+ */background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(243,208,196,0.93)), color-stop(0%, rgba(189,229,242,0.93)), color-stop(60%, rgba(189,229,242,0.24)));
+/* Chrome, Safari4+ */background: -webkit-linear-gradient(top, rgba(243,208,196,0.93) 0%, rgba(189,229,242,0.93) 0%, rgba(189,229,242,0.24) 60%);
+ /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(top, rgba(243,208,196,0.93) 0%, rgba(189,229,242,0.93) 0%, rgba(189,229,242,0.24) 60%);
+ /* Opera 11.10+ */background: -ms-linear-gradient(top, rgba(243,208,196,0.93) 0%, rgba(189,229,242,0.93) 0%, rgba(189,229,242,0.24) 60%);
+ /* IE 10+ */background: linear-gradient(to bottom, rgba(243,208,196,0.93) 0%, rgba(189,229,242,0.93) 0%, rgba(189,229,242,0.24) 60%);
+/* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3d0c4', endColorstr='#bde5f2', GradientType=0 );
+/* IE6-9 */
+}
+
+.marketing p{
+  font-size:17px;
+}
+
+.marketing h4{
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.marketing a:hover{
+  opacity:.8;
+}
+
+#pictures h3, #videos h3{
+  padding-bottom:25px;
+}
+
+#first{
+  padding-bottom: 5px;
+}
+
+#videos h3{
+  padding-top:50px;
+}
+
+#tiger, #lion, #bear, #baboons, #cheetah, #emu, #gorillas, #red-panda, #penguin, #sloth, #sea-lion, #polar-bear{
+  width:112.9687px; /* This is just a joke  (decimal places) */
+  height:180px;
+  border: 6px solid;
+  border-color:rgba(242,202,189, .9);
+}
+
+#tiger, #lion, #bear, #baboons, #cheetah, #emu, #gorillas, #red-panda, #penguin, #sloth, #sea-lion, #polar-bear, iframe{
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius:10%;
+  border-top-right-radius: 10%;
+  border-top-left-radius:10%;
+}
+
+#quote{
+  padding-top:12px;
+}
+#logo1{
+  margin-bottom:10px;
+}
+#logo2, #logo1{
+  width:60px;
+  height:60px;
+}
+
+iframe{
+  margin-bottom:10px;
+  border:6px solid;
+  border-color:rgba(242,202,189, .9);
+  width:100%;
+}
+
+footer{
+  background-color:rgba(189,229,242,0.24) 60%);
+  text-align:center;
+  padding-bottom:10px;
+}
+
+footer h2{
+    color:rgb(0,0,0);
+}
+/* Responsive Styling */
+@media (max-width: 892px){
+  #tiger, #lion, #bear, #baboons, #cheetah, #emu, #gorillas, #red-panda, #penguin, #sloth, #sea-lion, #polar-bear{
+  width:225px;
+  height:140px;
+  border: 4px solid;
+  border-color:rgba(242,202,189, .9);
+}
+}
+
+@media (max-width: 760px){
+  #tiger, #lion, #bear, #baboons, #cheetah, #emu, #gorillas, #red-panda, #penguin, #sloth, #sea-lion, #polar-bear{
+  width:108px;
+  height:140px;
+  border: 4px solid;
+  border-color:rgba(242,202,189, .9);
+}
+}
+
+@media (max-width: 730px){
+  #tiger, #lion, #bear, #baboons, #cheetah, #emu, #gorillas, #red-panda, #penguin, #sloth, #sea-lion, #polar-bear{
+  width:213px;
+  height:139px;
+  border: 4px solid;
+  border-color:rgba(242,202,189, .9);
+}
+}
+
+@media (max-width: 712px){
+  #tiger, #lion, #bear, #baboons, #cheetah, #emu, #gorillas, #red-panda, #penguin, #sloth, #sea-lion, #polar-bear{
+  width:240px; /* This is just a joke  (decimal places) */
+  height:140px;
+  border: 4px solid;
+  border-color:rgba(242,202,189, .9);
+}
+}
+
+@media (max-width: 694px){
+  #tiger, #lion, #bear, #baboons, #cheetah, #emu, #gorillas, #red-panda, #penguin, #sloth, #sea-lion, #polar-bear{
+  width:188px; 
+  height:140px;
+  border: 4px solid;
+  border-color:rgba(242,202,189, .9);
+}
+}
+
+@media (max-width: 650px){
+  #tiger, #lion, #bear, #baboons, #cheetah, #emu, #gorillas, #red-panda, #penguin, #sloth, #sea-lion, #polar-bear{
+  width:169px; 
+  height:138px;
+  border: 3px solid;
+  border-color:rgba(242,202,189, .9);
+}
+}
+
+@media (max-width: 640px){
+  #tiger, #lion, #bear, #baboons, #cheetah, #emu, #gorillas, #red-panda, #penguin, #sloth, #sea-lion, #polar-bear{
+  width:109px; 
+  height:138px;
+  border: 3px solid;
+  border-color:rgba(242,202,189, .9);
+}
+}
+
+@media (max-width: 620px){
+  #tiger, #lion, #bear, #baboons, #cheetah, #emu, #gorillas, #red-panda, #penguin, #sloth, #sea-lion, #polar-bear{
+  width:159px; /* Added higher width to make the pictures into columns(colored and gray pattern)*/
+  height:138px;
+  border: 3px solid;
+  border-color:rgba(242,202,189, .9);
+}
+}
+
+@media (max-width: 610px){
+  #tiger, #lion, #bear, #baboons, #cheetah, #emu, #gorillas, #red-panda, #penguin, #sloth, #sea-lion, #polar-bear{
+  width:158px; 
+  height:138px;
+  border: 3px solid;
+  border-color:rgba(242,202,189, .9);
+}
+}
+
+@media (max-width: 590px){
+  #tiger, #lion, #bear, #baboons, #cheetah, #emu, #gorillas, #red-panda, #penguin, #sloth, #sea-lion, #polar-bear{
+  width:134px; 
+  height:138px;
+  border: 3px solid;
+  border-color:rgba(242,202,189, .9);
+}
+}
+
+@media (max-width: 580px){
+  #tiger, #lion, #bear, #baboons, #cheetah, #emu, #gorillas, #red-panda, #penguin, #sloth, #sea-lion, #polar-bear{
+  width:131px; 
+  height:138px;
+  border: 3px solid;
+  border-color:rgba(242,202,189, .9);
+}
+}
+
+@media (max-width: 578px){
+  #tiger, #lion, #bear, #baboons, #cheetah, #emu, #gorillas, #red-panda, #penguin, #sloth, #sea-lion, #polar-bear{
+  width:116px; 
+  height:138px;
+  border: 3px solid;
+  border-color:rgba(242,202,189, .9);
+  }
+  .text-muted{
+    font-size:17.8px;
+  }
+
+  .nav{
+    font-size: 10px;
+    margin-bottom:20px;
+  }
+}
+
+@media (max-width: 748px){
+  #tiger, #lion, #bear, #baboons, #cheetah, #emu, #gorillas, #red-panda, #penguin, #sloth, #sea-lion, #polar-bear{
+  width:184px;
+  height:140px;
+  border: 4px solid;
+  border-color:rgba(242,202,189, .9);
+}
+}
+
+@media (max-width: 732px){
+  #tiger, #lion, #bear, #baboons, #cheetah, #emu, #gorillas, #red-panda, #penguin, #sloth, #sea-lion, #polar-bear{
+  width:300px;
+  height:140px;
+  border: 4px solid;
+  border-color:rgba(242,202,189, .9);
+}
+}
+
+
+
