@@ -32,6 +32,12 @@ ul.nav{
 	opacity:.9;
 }
 
+#deal{
+	position:fixed;
+	left:15px;
+	top:200px;
+	width:400px;
+}
 #logo{
 	padding-bottom: 40px;
 }
