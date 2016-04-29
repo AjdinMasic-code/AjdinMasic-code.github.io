@@ -32,12 +32,6 @@ ul.nav{
 	opacity:.9;
 }
 
-#deal{
-	position:fixed;
-	left:15px;
-	top:200px;
-	width:400px;
-}
 #logo{
 	padding-bottom: 40px;
 }
@@ -153,7 +147,7 @@ footer h3{
 	color:rgb(0,0,0);
 }
 
-#back-to-top{
+#arrow{
 	position: fixed;
     bottom: 20px;
     right: 20px;
@@ -162,6 +156,15 @@ footer h3{
 #back-to-top a{
 	color:rgb(0,0,0);
 	opacity:.7;
+}
+
+#deal{
+	position:fixed;
+	bottom:20px;
+	left:20px;
+	border-radius:50%;
+	width:50px;
+	opacity:.8;
 }
 
 .modal-footer{
@@ -264,6 +267,7 @@ footer h3{
 	}
 
 }
+
 
 
 
