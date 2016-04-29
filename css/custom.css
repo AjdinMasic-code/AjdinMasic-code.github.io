@@ -1,8 +1,13 @@
-
-
 ul.nav{
 	font-family: 'Raleway', sans-serif;
 	font-size:16px;
+}
+
+#navbar a{
+	border:2px solid rgb(255,95,95);
+	border-bottom:8px solid rgb(255,95,95);
+	border-radius:3%;
+	margin-top:-5px;
 }
 
 .navbar-fixed-top{
@@ -24,7 +29,6 @@ ul.nav{
 	background-size:100% 100%;
 	font-family: 'Raleway', sans-serif;
 	text-align:center;
-
 }
 
 .jumbotron a:hover{
