@@ -138,3 +138,14 @@ footer h3{
 	width:100%;
 }
 }
+
+/*Mozilla hacks */
+@-moz-document url-prefix() {
+	#logo-indent{
+	margin-left:0px;
+}
+	#title{
+		padding-left:20px;
+	}
+}
+

@@ -17,7 +17,7 @@ ul.nav{
 }
 
 #title{
-	word-spacing:inherit;
+	padding-left:90px;
 }
 
 .btn-lg {
@@ -225,6 +225,9 @@ footer h3{
 	#logo-indent{
 	margin-left:0px;
 }
+	#title{
+		padding-left:20px;
+	}
 }
 
 
