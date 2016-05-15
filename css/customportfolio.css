@@ -57,8 +57,11 @@ ul.nav{
 	padding-bottom:50px;
 }
 
-#website1,#blog,#lion, #blog-update{
-	width:65%;
+#wb1,#wb2,#wb3, #wb4{
+	  width:65%;
+	  -webkit-box-shadow: -2px 7px 24px 2px rgba(0,0,0,0.49);
+	  -moz-box-shadow: -2px 7px 24px 2px rgba(0,0,0,0.49);
+	  box-shadow: -2px 7px 24px 2px rgba(0,0,0,0.49);
 }
 
 /* Morphing Pictures */
@@ -148,7 +151,7 @@ footer h3{
 }
 
 @media (max-width: 836px) {
-	#website1,#blog,#lion{
+	#wb1,#wb2,#wb3,#wb4{
 	width:100%;
 }
 }
