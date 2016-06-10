@@ -57,29 +57,22 @@ ul.nav{
 	padding-bottom:50px;
 }
 
-#wb1,#wb2,#wb3, #wb4{
+.wbs{
 	  width:65%;
 	  -webkit-box-shadow: -2px 7px 24px 2px rgba(0,0,0,0.49);
 	  -moz-box-shadow: -2px 7px 24px 2px rgba(0,0,0,0.49);
 	  box-shadow: -2px 7px 24px 2px rgba(0,0,0,0.49);
+	  opacity: .8;
+	  border-radius:10px;
+	  transition: all .6s ease-in-out;
+	  -o-transition: all .6s ease-in-out;
+	  -webkit-transition: all .6s ease-in-out;
+	  -moz-transition: all .6s ease-in-out;
+	  -ms-transition: all .6s ease-in-out;
 }
 
-/* Morphing Pictures */
-
-.morph{
-	-webkit-transition: all 2s ease;
-	-moz-transition: all 2s ease; /* For Firefox */
-	-o-transition: all 2s ease;
-	-ms-transition: all 2s ease;
-	transition: all 2s ease;
-}
-
-.morph:hover{
-		-webkit-transform: rotate(10deg);
-		-moz-transform: rotate(10deg);
-		-o-transform: rotate(10deg);
-		-ms-transform: rotate(10deg);
-		transform: rotate(10deg);
+.wbs:hover{
+	opacity:1.0;
 }
 
 #logo{
