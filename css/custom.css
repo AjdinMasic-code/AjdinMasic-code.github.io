@@ -9,6 +9,7 @@ ul.nav{
 	height:55px;
 }
 
+
 #title{
 	padding-left:90px;
 }
@@ -243,13 +244,20 @@ footer h3{
 	}
 }
 
-/*Mozilla hacks */
-@-moz-document url-prefix() {
-	#logo-indent{
-	margin-left:0px;
-}
-	#title{
-		padding-left:20px;
+	/*Mozilla hacks */
+	@-moz-document url-prefix() {
+		#logo-indent{
+		margin-left:0px;
+	}
+		#title{
+			padding-left:20px;
+		}
+	}
+
+@media (max-width: 767px){
+
+	.navbar-collapse{
+		background-color:rgb(255,95,95);
 	}
 }
 
@@ -289,6 +297,14 @@ footer h3{
 	#text{
 		font-size:1.5em;
 		padding:0;	
+	}
+}
+
+@media (max-width: 334px){
+	#title {
+		background-color:rgb(255,95,95);
+		width:100%;
+		color:white;
 	}
 }
 
