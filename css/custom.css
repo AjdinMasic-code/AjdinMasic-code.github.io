@@ -292,6 +292,25 @@ footer h3{
 	}
 }
 
+@media (max-width: 300px) {
+	.jumbotron {
+		height:700px;
+	}
+	.jumbotron h1{
+		font-size: 2em;
+	}
+
+	#mobile h3{
+		margin-top: 35px;
+	}
+
+	#text{
+		font-size:1.3em;
+		padding:0;	
+	}
+}
+
+
 
 
 
