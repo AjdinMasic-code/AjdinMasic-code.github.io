@@ -18,10 +18,11 @@ ul.nav{
 }
 
 .jumbotron{
-	background-image: url('../images/Sales.jpg');
+	background-image: url('../images/responsive.jpeg');
 	background-size:100% 100%;
 	font-family: 'Raleway', sans-serif;
 	text-align:center;
+	height: 750px;
 }
 
 .jumbotron a:hover{
@@ -39,7 +40,8 @@ ul.nav{
 	margin-top:2px;
 }
 
-.jumbotron mark{
+/* Words that have been highlighted */
+mark{
 	opacity:.8;
 	background-color:rgb(255,95,95);
 	color:rgb(255,255,255);
@@ -50,6 +52,7 @@ ul.nav{
 	margin-bottom:50px;
 	color:rgb(255,255,255);
 	padding-top:50px;
+	line-height: 1.4;
 }
 
 .jumbotron p{
@@ -57,7 +60,7 @@ ul.nav{
 	font-weight: 500;
 	padding: 0 50px;
 	opacity:1;
-	
+
 }
 
 .homepage{
@@ -84,7 +87,6 @@ ul.nav{
 
 #get-involved{
 background-color:rgb(204,204,204);
-margin-top: 50px;
 }
 
 #get-involved h2{
@@ -137,6 +139,17 @@ margin-top: 50px;
 
 #who-we-are hr{
 	padding-bottom:50px;
+}
+
+#mobile {
+	background-image:url(../images/mobile-first.jpg);
+	background-size: 100% 100%;
+	height:600px;
+}
+
+#mobile h2{
+	color: white;
+	margin-top: 250px;
 }
 
 #pricing{
@@ -234,6 +247,32 @@ footer h3{
 }
 	#title{
 		padding-left:20px;
+	}
+}
+
+@media (max-width: 495px) {
+	#mobile {
+		height: 300px;
+	}
+
+	#mobile h2{
+		margin-top: 100px;
+	}
+
+}
+
+
+@media (max-width: 385px) {
+	.jumbotron {
+		height:700px;
+	}
+	.jumbotron h1{
+		font-size: 2em;
+	}
+
+	#text{
+		font-size:1.5em;
+		padding:0;	
 	}
 }
 
