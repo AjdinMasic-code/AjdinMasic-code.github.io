@@ -326,6 +326,12 @@ footer h3{
 	}
 }
 
+@media (max-width: 286px){
+	#title {
+		text-align: left;
+	}
+}
+
 
 
 
