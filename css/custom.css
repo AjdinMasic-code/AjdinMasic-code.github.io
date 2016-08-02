@@ -147,7 +147,7 @@ background-color:rgb(204,204,204);
 	height:600px;
 }
 
-#mobile h2{
+#mobile h3{
 	color: white;
 	margin-top: 250px;
 }
@@ -198,13 +198,16 @@ footer h3{
 /* Responsive styling */
 
 
-@media (max-width: 1199px) {
+@media (max-width: 1200px) {
 	.jumbotron h1{
 		font-size: 56px;
 		margin-bottom: 30px;
 	
 	}
 
+	#mobile h3{
+		line-height: 1.5;
+	}
 }
 
 @media (max-width: 991px) {
@@ -250,24 +253,37 @@ footer h3{
 	}
 }
 
+@media (max-width: 510px){
+
+	#mobile h3{
+		margin-top: 200px;
+	}
+}
+
 @media (max-width: 495px) {
 	#mobile {
 		height: 300px;
 	}
 
-	#mobile h2{
-		margin-top: 100px;
+	#mobile mark{
+		opacity: .7;
 	}
-
+	#mobile h3{
+		margin-top: 60px;
+	}
 }
 
 
-@media (max-width: 385px) {
+@media (max-width: 389px) {
 	.jumbotron {
 		height:700px;
 	}
 	.jumbotron h1{
 		font-size: 2em;
+	}
+
+	#mobile h3{
+		margin-top: 50px;
 	}
 
 	#text{
