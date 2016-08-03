@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemap>
+  <title>Web Solutions LLC</title>
+  <version>1.0</version>
+  <link>http://websolutionsllc.slickplan.com/rfhlryxgdk</link>
+  <pubDate>Wed, 03 Aug 2016 14:39:39 +0000</pubDate>
+  <logo type="image">60837</logo>
+  <section id="svgmainsection">
+    <options>
+      <template>horizontal</template>
+      <color_scheme>default</color_scheme>
+      <id>svgmainsection</id>
+      <design>flat</design>
+      <text_shadow/>
+    </options>
+    <cells>
+      <cell id="svgxgx1u6jnrwgt7q69">
+        <level>home</level>
+        <text>http://www.websolutions.today/</text>
+        <order>1</order>
+      </cell>
+      <cell id="svgffohzvuule54xu6u">
+        <level>1</level>
+        <text>http://www.websolutions.today/portfolio</text>
+        <order>1000</order>
+      </cell>
+    </cells>
+  </section>
+</sitemap>
