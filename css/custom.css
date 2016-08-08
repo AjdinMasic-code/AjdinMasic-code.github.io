@@ -310,7 +310,7 @@ footer h3{
 
 @media (max-width: 300px) {
 	.jumbotron {
-		height:700px;
+		height:600px;
 	}
 	.jumbotron h1{
 		font-size: 2em;
