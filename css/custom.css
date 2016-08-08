@@ -259,6 +259,10 @@ footer h3{
 	.navbar-collapse{
 		background-color:rgb(255,95,95);
 	}
+
+	.jumbotron{
+		height:600px;
+	}
 }
 
 @media (max-width: 510px){
@@ -284,7 +288,7 @@ footer h3{
 
 @media (max-width: 389px) {
 	.jumbotron {
-		height:700px;
+		height:500px;
 	}
 	.jumbotron h1{
 		font-size: 2em;
@@ -310,7 +314,7 @@ footer h3{
 
 @media (max-width: 300px) {
 	.jumbotron {
-		height:600px;
+		height:400px;
 	}
 	.jumbotron h1{
 		font-size: 2em;
