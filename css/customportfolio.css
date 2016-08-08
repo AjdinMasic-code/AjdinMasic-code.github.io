@@ -1,6 +1,5 @@
 body{
 	font-family: 'Raleway', sans-serif;
-	text-align:center;
 	background-color:rgb(220,220,220);
 }
 
@@ -22,8 +21,6 @@ ul.nav{
 .jumbotron {
 	background-image: url('../images/responsive.jpeg');
 	background-size:100% 100%;
-	font-family: 'Raleway', sans-serif;
-	text-align:center;
 	height: 750px;
 }
 
@@ -62,6 +59,11 @@ ul.nav{
 
 .col-md-6 {
 	margin-top: 25px;
+}
+
+.row,
+.jumbotron {
+	text-align:center;
 }
 
 .row h2 {
@@ -153,9 +155,14 @@ footer h3{
 }
 
 @media (max-width: 836px) {
-	.wbs{
-	width:80%;
-}
+	.wbs,
+	.col{
+		width:80% !important;
+	}
+
+	.col{
+		height: 300px;
+	}
 }
 
 /*Mozilla hacks */
@@ -175,8 +182,9 @@ footer h3{
 }
 
 @media (max-width: 450px) {
-	.wbs{
-	width:88%;
+	.wbs,
+	.col{
+	width:88% !important;
 }
 }
 
@@ -186,8 +194,22 @@ footer h3{
 	}
 }
 
+@media (max-width: 334px){
+	#title {
+		background-color:rgb(255,95,95);
+		width:100%;
+		color:white;
+	}
+}
+
 @media (max-width: 300px) {
 	.jumbotron {
 		height:600px;
+	}
+}
+
+@media (max-width: 286px){
+	#title {
+		text-align: left;
 	}
 }
