@@ -34,6 +34,7 @@ ul.nav{
 #logo{
 	padding-bottom: 40px;
 }
+
 #logo-indent{
 	height:50px;
 	width:50px;
@@ -342,11 +343,6 @@ footer h3{
 	}
 }
 
-@media (max-width: 286px){
-	#title {
-		text-align: left;
-	}
-}
 
 
 

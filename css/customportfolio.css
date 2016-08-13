@@ -106,6 +106,13 @@ ul.nav{
 	margin-top:2px;
 }
 
+/* Words that have been highlighted */
+mark {
+	opacity:.8;
+	background-color:rgb(255,95,95);
+	color:rgb(255,255,255);
+}
+
 footer{
 	background-color: rgb(255,95,95);
 	padding-top:150px;
@@ -213,11 +220,5 @@ footer h3{
 @media (max-width: 305px) {
 	.jumbotron {
 		height: 380px;
-	}
-}
-
-@media (max-width: 286px){
-	#title {
-		text-align: left;
 	}
 }
