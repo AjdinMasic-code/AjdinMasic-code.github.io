@@ -325,10 +325,6 @@ footer h3{
 	#mobile{
   		display: none;
   	}
-
-	#mobile h3{
-		margin-top: 50px;
-	}
 }
 
 @media (max-width: 334px){
@@ -350,10 +346,6 @@ footer h3{
 	.jumbotron p {
 		font-size: 10px;
 	}
-
-	#mobile {
-		height: 150px;
-	}
 }
 
 @media (max-width: 305px) {
@@ -366,13 +358,6 @@ footer h3{
 
 	.jumbotron p {
 		font-size: 8px;
-	}
-	#mobile h3{
-		margin-top: 35px;
-	}
-
-	#mobile {
-		height: 130px;
 	}
 }
 
