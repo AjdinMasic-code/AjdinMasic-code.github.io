@@ -68,7 +68,6 @@ mark{
 .homepage{
 	text-align:center;
 	font-family: 'Raleway', sans-serif;
-	padding-top:30px;
 	padding-bottom:30px;
 }
 
@@ -151,7 +150,6 @@ background-color:rgb(204,204,204);
 
 #mobile h3{
 	color: white;
-	margin-top: 150px;
 }
 
 #pricing{
@@ -202,10 +200,6 @@ footer h3{
 @media (max-width: 1484px) {
 	#mobile{ 
 		height: 550px;
-	}
-
-	#mobile h3{
-		margin-top: 100px;
 	}
 }
 
@@ -283,27 +277,18 @@ footer h3{
 	}
 }
 
-@media (max-width: 510px){
-	#mobile h3{
-		margin-top: 200px;
-	}
-}
-
 @media (max-width: 495px) {
 	#mobile {
 		height: 250px;
 	}
 
-	#mobile-logo{
-		height:50px;
-		width: 50px;
+	#mobile mark{
+		opacity: .9;
 	}
 
-	#mobile mark{
-		opacity: .7;
-	}
-	#mobile h3{
-		margin-top: 40px;
+	#mobile-logo{
+		height:65px;
+		width: 65px;
 	}
 }
 
