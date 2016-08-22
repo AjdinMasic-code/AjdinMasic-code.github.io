@@ -145,6 +145,15 @@ footer h3{
 	.container p{
 		font-size:20px;	
 	}
+
+	.wbs,
+	.col{
+		width:80% !important;
+	}
+
+	.col{
+		height: 300px;
+	}
 }
 
 @media (max-width: 836px) {
@@ -158,17 +167,6 @@ footer h3{
 
 	.container p{
 		font-size:10px;	
-	}
-}
-
-@media (max-width: 836px) {
-	.wbs,
-	.col{
-		width:80% !important;
-	}
-
-	.col{
-		height: 300px;
 	}
 }
 
