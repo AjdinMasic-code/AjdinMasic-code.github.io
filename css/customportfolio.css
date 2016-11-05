@@ -1,11 +1,8 @@
-body{
-	font-family: 'Raleway', sans-serif;
-	background-color:rgb(220,220,220);
-}
+
 
 ul.nav{
 	font-family: 'Raleway', sans-serif;
-	font-size:16px;
+	font-size:15px;
 }
 
 .navbar-brand{
@@ -121,6 +118,7 @@ footer{
 
 footer h3{
 	color:rgb(0,0,0);
+	font-size:24px;
 }
 
 
