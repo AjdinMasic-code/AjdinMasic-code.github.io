@@ -39,22 +39,24 @@ $("a.navbar-brand[href^='#']").on('click', function(e) {
 
 });
 
-$("#back-to-top a[href^='#']").on('click', function(e) {
 
-   // prevent default anchor click behavior
-   e.preventDefault();
+$(document).ready(function() {
 
-   // store hash
-   var hash = this.hash;
+    function checkPosition() {
+        if ($(this).scrollTop() > 200) { // Checks if the value of scrollTop is greater than 200
+            $('#back-to-top').fadeIn(500); // Fades in if true
+        } else {
+            $('#back-to-top').fadeOut(300);// Otherwise fades out
+        }
+    }
+    // Checks to see if sticky button is shown or not
+    $(window).scroll(checkPosition);
 
-   // animate
-   $('html, body').animate({
-       scrollTop: $(hash).offset().top
-     }, 800, function(){
+    // Animate the scroll to top
+    $('#back-to-top').click(function(event) {
+        event.preventDefault();
 
-       // when done, add hash to url
-       // (default click behaviour)
-       window.location.hash = hash;
-     });
+        $('html, body').animate({scrollTop: 0}, 2000); // sets scrollTop value to 0(top of page) 2000 references speed
+    })
 
 });
