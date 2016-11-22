@@ -49,8 +49,21 @@ $(document).ready(function() {
             $('#back-to-top').fadeOut(300);// Otherwise fades out
         }
     }
-    // Checks to see if sticky button is shown or not
-    $(window).scroll(checkPosition);
+
+var target = $("#back-to-top").offset().top,
+    timeout = null;
+
+$(window).scroll(function () {
+    if (!timeout) {
+        timeout = setTimeout(function () {            
+            clearTimeout(timeout);
+            timeout = null;
+            if ($(window).scrollTop() >= target) {
+                checkPosition();
+            }
+        }, 300);
+    }
+});
 
     // Animate the scroll to top
     $('#back-to-top').click(function(event) {
