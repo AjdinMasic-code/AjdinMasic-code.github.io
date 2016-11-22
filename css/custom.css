@@ -197,6 +197,17 @@ footer h3{
 
 /* Responsive styling */
 
+@media only screen and (min-width: 462px){
+	.mobilephone {
+		display:none;
+	}
+
+	.desktopphone{
+		display:inline;
+	}
+}
+
+
 @media (max-width: 1484px) {
 	#mobile{ 
 		height: 550px;
@@ -296,8 +307,15 @@ footer h3{
   	.jumbotron p{
   		font-size: 16px;
   	}
-}
 
+	.mobilephone{
+		display:inline;
+	}
+
+	.desktopphone {
+		display: none;
+	}
+}
 
 @media (max-width: 389px) {
 	.jumbotron {
