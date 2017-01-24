@@ -315,11 +315,6 @@ footer h3{
 	#mobile mark{
 		opacity: .9;
 	}
-
-	#mobile-logo{
-		height:65px;
-		width: 65px;
-	}
 }
 
 @media (max-width: 462px) {
