@@ -44,7 +44,8 @@ $(document).ready(function() {
 /* The start of back to top button */
       var timeout = null,
           divider =2,
-          minimumScrollbarPosition = 900;
+          minimumScrollbarPosition = 900,
+          minimumNavbarPosition = 300;
 
     $(window).scroll(function () {
         if (!timeout) {
@@ -52,6 +53,7 @@ $(document).ready(function() {
                 clearTimeout(timeout);
                 timeout = null;
                 checkPosition();
+                checkNavbarPosition();
 
             }, 200);
         }
@@ -62,6 +64,14 @@ $(document).ready(function() {
             $('#back-to-top').fadeIn(500); // Fades in if true
         } else {
             $('#back-to-top').fadeOut(300);// Otherwise fades out
+        }
+    }
+    
+    function checkNavbarPosition() {
+        if($(this).scrollTop() >= minimumNavbarPosition) {
+            $('.navbar-fixed-top').addClass("opaque");
+        } else {
+            $('.navbar-fixed-top').removeClass("opaque");
         }
     }
 
