@@ -24,13 +24,6 @@ ul.nav{
     -moz-transition: all .3s ease .3s;
 }
 
-
-.jumbotron {
-	background-image: url('../images/responsive.jpeg');
-	background-size:100% 100%;
-	height: 750px;
-}
-
 #title{
 	padding-left:90px;
 }
@@ -38,11 +31,11 @@ ul.nav{
 
 .jumbotron h1{
 	margin-top: 175px;
-	font-size:80px;
 	font-weight:500;
 	color:rgb(0,0,0);
 	text-transform:uppercase;
 	color: white;
+	padding-bottom: 5em;
 }
 
 .container hr{
@@ -84,7 +77,6 @@ ul.nav{
 	  -moz-box-shadow: -2px 7px 24px 2px rgba(0,0,0,0.49);
 	  box-shadow: -2px 7px 24px 2px rgba(0,0,0,0.49);
 	  opacity: .8;
-	  border-radius:10px;
 	  transition: all .6s ease-in-out;
 	  -o-transition: all .6s ease-in-out;
 	  -webkit-transition: all .6s ease-in-out;
@@ -104,6 +96,8 @@ ul.nav{
 #logo{
 	padding-top:25px;
 	padding-bottom:50px;
+	display: block;
+	margin: 0 auto;
 }
 
 #logo-indent{
@@ -111,6 +105,16 @@ ul.nav{
 	width:50px;
 	margin-left:-230px;
 	margin-top:2px;
+}
+
+.blog_update {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.wbs, .blog_update {
+	border-radius:10px;
 }
 
 /* Words that have been highlighted */
@@ -192,10 +196,6 @@ footer h3{
 	.navbar-collapse{
 		background-color:rgb(255,95,95);
 	}
-
-	.jumbotron {
-		height: 600px;
-	}
 }
 
 @media (max-width: 450px) {
@@ -209,26 +209,10 @@ footer h3{
     }
 }
 
-@media (max-width: 389px) {
-	.jumbotron {
-		height:500px;
-	}
-}
-
 @media (max-width: 334px){
 	#title {
 		background-color:rgb(255,95,95);
 		width:100%;
 		color:white;
-	}
-
-	.jumbotron {
-		height: 450px;
-	}
-}
-
-@media (max-width: 305px) {
-	.jumbotron {
-		height: 380px;
 	}
 }

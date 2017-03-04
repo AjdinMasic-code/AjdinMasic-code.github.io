@@ -29,10 +29,10 @@ ul.nav{
 
 .jumbotron{
 	background-image: url('../images/responsive.jpeg');
-	background-size:100% 100%;
+	background-size: cover;
 	font-family: 'Raleway', sans-serif;
 	text-align:center;
-	height: 750px;
+	height: auto;
 }
 
 .jumbotron a:hover{
@@ -307,10 +307,6 @@ footer h3{
 		background-color:rgb(255,95,95);
 	}
 
-	.jumbotron{
-		height:600px;
-	}
-
 	.mobile {
 		height: 300px;
 	}
@@ -345,9 +341,6 @@ footer h3{
 }
 
 @media (max-width: 389px) {
-	.jumbotron {
-		height:575px;
-	}
 	.jumbotron h1{
 		font-size: 1.5em;
 	}
@@ -364,10 +357,6 @@ footer h3{
 		color:white;
 	}
 
-	.jumbotron {
-		height: 450px;
-	}
-
 	.jumbotron h1{
 		margin-top: 23px;
 		font-size: 20px;
@@ -379,9 +368,6 @@ footer h3{
 }
 
 @media (max-width: 305px) {
-	.jumbotron {
-		height: 380px;
-	}
 	.jumbotron h1{
 		font-size: 14px;
 	}
