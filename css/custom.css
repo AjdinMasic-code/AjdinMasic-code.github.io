@@ -1,0 +1,99 @@
+/* ajdin masic 8-26-17 */
+
+h1, h2, h3, h4 {
+    font-weight: 400;
+}
+
+body {
+  padding-top: 10rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.navbar-brand{
+	font-size: 25px;
+}
+
+.navbar {
+	border-bottom: 2px solid black;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .nav-link {
+	color: black;
+}
+
+.bg-dark {
+background: #DBDBDB!important;
+}
+
+.navbar {
+    text-transform: uppercase;
+}
+
+.container h1 {
+    font-weight: 400;
+    text-align:center;
+}
+
+.lead {
+    text-align: center;
+}
+
+.fa-4 {
+    font-size: 11em;
+}
+
+/* COlumn styles */
+.col-sm-4 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col-sm-4 h3 {
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+
+.col-space {
+    margin-top: 15px;
+}
+
+/* Form styles */
+label {
+	float: left;
+    text-align: right;
+    clear: both;
+}
+
+.calculator {
+    width: 25em;
+    display: block;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+	margin-right: .5em;
+    display: block;
+    float: right;
+}
+span {
+	color: red;
+    float: right;
+}
+
+footer {
+    clear: both;
+    background: #DBDBDB!important;
+}
