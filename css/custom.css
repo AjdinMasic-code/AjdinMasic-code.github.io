@@ -115,27 +115,30 @@ footer .container p {
 
 /* Form Styling */
 
-#contact_form {
+#contact_form, #news_form {
     display: block;
     margin: auto;
     width: 100%;
 }
 
-#contact_form h1 {
+#contact_form h1, #news_form h1 {
 	color: blue;
 	margin-bottom: .5em;
 }
-#contact_form label {
+#contact_form label, #news_form label {
 	float: left;
     width: 11em;
     text-align: right;
 }
 #contact_form input,
-#contact_form textarea{
+#contact_form textarea,
+#news_form input,
+#news_form textarea {
     margin-left: 1em;
     margin-bottom: .5em;
 }
-#contact_form span {
+#contact_form span,
+#news_form span {
 	color: red;
     clear: left;
 }

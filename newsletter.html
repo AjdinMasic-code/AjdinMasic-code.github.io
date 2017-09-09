@@ -4,12 +4,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Sign up for the newsletter">
+    <meta name="description" content="Contact Us Today">
     <meta name="author" content="">
 	<link rel="shortcut icon" href="https://static.parastorage.com/client/pfavico.ico" type="image/x-icon"/>
 	<link rel="apple-touch-icon" href="https://static.parastorage.com/client/pfavico.ico" type="image/x-icon"/>
 
-    <title>Workflow Solutions -- Newsletter</title>
+    <title>Workflow Solutions -- Contact Us</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,7 +20,7 @@
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="index.html"><img src="images/Logo.png">Workflow Solutions</a>
+      <a class="navbar-brand" href="index.html"><img src="images/Logo.png" alt="logo">Workflow Solutions</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,16 +31,7 @@
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pricing.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="newsletter.html">Newsletter</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="FAQ.html">FAQ</a>
+            <a class="nav-link" href="secondpage.html">Second Page</a>
           </li>
         </ul>
       </div>
@@ -62,11 +53,17 @@
             <label for="first_name">First Name</label>
                 <input type="text" id="first_name" name="first_name">
                 <span id="first_name_error">*</span><br>
+            
+            <label for="phone_number">Phone Number</label>
+                <input type="text" id="phone_number" name="phone_number">
+                <span id="phone_number_error">*</span><br>
+            
 
             <label>&nbsp;</label>
             <input type="button" id="send" value="Send">
-        </form>       
-
+        </form>
+        
+         <p>PHONE:</p><p id="phone-number-display"></p><!-- Displays Phone Number -->
 
     </div><!-- /.container -->
 

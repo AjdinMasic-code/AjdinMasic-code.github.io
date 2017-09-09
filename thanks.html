@@ -15,7 +15,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/custom.css">
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
   </head>
 
   <body>
@@ -52,6 +52,22 @@
       <div class="starter-template">
         <h1>Thank you we'll contact you shortly</h1>
       </div>
+        
+        <p id="phone"></p>
+        <p id="name-info"></p>
+        <p id="email-info"></p>
+        
+        <script>
+            var newdata1=sessionStorage.getItem('data1');//gets info from form_validation.js
+            var newdata2=sessionStorage.getItem('data2');
+            var newdata3=sessionStorage.getItem('data3');
+            document.getElementById('phone').innerHTML="Phone: " + newdata1; // displays info from form_validation.js
+            document.getElementById('name-info').innerHTML="Name: " + newdata2;
+            document.getElementById('email-info').innerHTML="Email: " + newdata3;
+            
+            sessionStorage.clear();
+            
+        </script>
 
     </div><!-- /.container -->
 
@@ -63,5 +79,6 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://cdnjs.com/libraries/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/form_validation.js"></script>
   </body>
 </html>
