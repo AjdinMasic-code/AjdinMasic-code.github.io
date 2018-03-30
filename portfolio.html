@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Check out our Boise web design portfolio where you'll find our completed work and what we can offer: Idaho Website Designs.">
+    <meta name="theme-color" content="#ff6666">
+    <!-- Makes the address bar change color for android devices with v 5.0 lollipop w/ chrome browsers -->
+    <meta name="author" content="Web Solutions LLC, 208-982-2181">
+    <link rel="icon" href="favicon.ico">
+    <link rel="canonical" href="https://boisewebsolutions.com/portfolio.html">
+
+    <title>Boise Web Design Portfolio | Web Solutions LLC</title>
+
+    <!-- font style and font awesome-->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/customportfolio.css" rel="stylesheet">
+
+    <style>
+        .jumbotron {
+            background: url("images/portfolio_img.jpeg");
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/portfolio_img.jpg', sizingMethod='scale');
+            -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/portfolio_img.jpg', sizingMethod='scale')";
+            background-position: 10% 0;
+            height: 350px;
+        }
+        
+        .subtitle {
+            margin-top: 0!important;
+        }
+
+        .thumbnail-tv-screens {
+            margin-top: 15px;
+        }
+
+        .img-container {
+            cursor: pointer;
+        }
+
+        .img-container:hover .overlay {
+            opacity: .6;
+            cursor: pointer;
+            background-color: rgb(255, 90, 90);
+            /* background-color: gray;*/
+        }
+
+        .overlayOnly {
+            opacity: .6;
+            background-color: gray;
+            /* background-color: rgb(255, 90, 90);*/
+        }
+
+        .thumbnail-tv-screens>img {
+            margin-right: 5px;
+        }
+
+        .tv-container {
+            position: relative;
+        }
+
+        .layout-cycle {
+            position: absolute;
+            top: 3%;
+            left: 2.2%;
+        }
+
+        .layout-cycle img.bottom {
+            margin-right: 2.5%
+        }
+
+        .layout-cycle img.middle,
+        .layout-cycle img.top {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .layout-cycle img.bottom,
+        .layout-cycle img.middle,
+        .layout-cycle img.top {
+            visibility: hidden;
+        }
+
+        .eventsSlide,
+        .fullSlide,
+        .customSlide {
+            cursor: pointer;
+        }
+
+        .layout-cycle img.top {
+            z-index: 5;
+        }
+
+        .layout-cycle img.middle {
+            z-index: 2;
+        }
+
+        .clickFade {
+            -webkit-animation: layout_transtioning 1s;
+            -moz-animation: layout_transtioning 1s;
+            -o-animation: layout_transtioning 1s;
+            -ms-animation: layout_transtioning 1s;
+            animation: layout_transtioning 1s;
+            -webkit-animation-fill-mode: forwards;
+            /* Safari 4.0 - 8.0 */
+            animation-fill-mode: forwards;
+            visibility: visible !important;
+        }
+
+
+
+        @-o-keyframes layout_transtioning {
+            0% {
+                opacity: 0
+            }
+            100% {
+                opacity: 1
+            }
+        }
+
+        @-moz-keyframes layout_transtioning {
+            0% {
+                opacity: 0
+            }
+            100% {
+                opacity: 1
+            }
+        }
+
+        @-webkit-keyframes layout_transtioning {
+            0% {
+                opacity: 0
+            }
+            100% {
+                opacity: 1
+            }
+        }
+
+        @keyframes layout_transtioning {
+            0% {
+                opacity: 0
+            }
+            100% {
+                opacity: 1
+            }
+        }
+
+    </style>
+
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-78740818-3', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+</head>
+
+<body class="not-front" id="portfolio">
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Web Solutions LLC",
+            "image": "http://boisewebsolutions.com/images/logo.png",
+            "telephone": "(208) 614-0423",
+            "email": "ajdinmasic@boisewebsolutions.com",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "P.O. Box is 191153",
+                "addressLocality": "Boise",
+                "addressRegion": "ID",
+                "postalCode": "83719-1153"
+            },
+            "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": {
+                    "@type": "DayOfWeek",
+                    "name": "Monday, Tuesday, Wednesday, Thursday, Friday"
+                },
+                "opens": "10:00",
+                "closes": "17:00"
+            }
+        }
+
+    </script>
+
+    <span itemscope itemtype="http://schema.org/LocalBusiness"><nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    </button>
+    <img itemprop="image" src="images/logo.png" id="logo-indent" /><a class="navbar-brand" href="http://www.boisewebsolutions.com" id="title">
+<span itemprop="name">Web Solutions</span></a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://www.boisewebsolutions.com">Home</a></li>
+            <li><a href="http://www.boisewebsolutions.com#who-we-are">About</a></li>
+            <li><a href="http://www.boisewebsolutions.com#services">Services</a></li>
+            <li><a href="contactform.php">Contact</a></li>
+            <li class="active"><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="the-importance-of-having-a-website-in-2017.html">Blog</a></li>
+        </ul>
+    </div>
+    <!-- /.nav-collapse  -->
+    </nav>
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div id="home">
+        <div class="jumbotron">
+            <div class="container">
+            </div>
+        </div>
+    </div>
+
+    <div class="container port-list">
+        <div class="row">
+            <div class="col-md-6 col-xs-12">
+                <div class="tv-container">
+                    <img width="100%" height="auto" src="images/blank_tv.png">
+                    <div class="layout-cycle">
+                        <img width="98%" height="auto" class='bottom' src="images/custom_text_tv_screen_with_tv_c.png">
+                        <img width="98%" height="auto" class='middle' src="images/full_tv_screen_with_tv_c.png">
+                        <img width="98%" height="auto" class='top' src="images/tv_screen_with_tv_c.png" alt="A project Web Solutions LLC finished for College of Western Idaho for their television slideshows">
+                    </div>
+                    <div class="thumbnail-tv-screens">
+                        <div class="img-container" style="display:inline-block; width:30%; cursor: pointer;">
+                            <img width="100%" class="eventsSlide" height="auto" src="images/tv_screen_with_tv.png" alt="Thumbnail 1: This is a slide with events">
+                            <div class="overlay thumbnailEvent"></div>
+                        </div>
+                        <div class="img-container" style="display:inline-block; width:30%; cursor: pointer;">
+                            <img width="100%" class="fullSlide" height="auto" src="images/full_tv_screen_with_tv.png" alt="Thumbnail 2: This is a slide with full screen text">
+                            <div class="overlay thumbnailFull"></div>
+                        </div>
+                        <div class="img-container" style="display:inline-block; width:30%; cursor: pointer;">
+                            <img width="100%" class="customSlide" height="auto" src="images/custom_text_tv_screen_with_tv.png" alt="Thumbnail 3: This is a slide that has a custom text featurette">
+                            <div class="overlay thumbnailCustom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12 port-text">
+                <h1>TV Slideshow</h1>
+                <h3 class="subtitle">Interactive Demo</h3>
+                <hr>
+                <p><strong>Organization:</strong> College of Western Idaho</p>
+
+                <p><strong>Objective:</strong> Create a design based off user feedback from surveys that we conducted as a team.</p>
+
+                <p><strong>Results:</strong> From the surveys that the web design team conducted, we found out that the previous layout wasn’t being viewed because of the clutter in the screens. So we came up with three different arrangements that are easy on the eyes, clean web design, and less cluttered with text. The first layout is an events layout where content contributors can describe events that a club or organization within College of Western Idaho is holding. The second arrangement is a full-screen image, and the third design is a layout similar to the events layout, but this one comes with a custom text featurette where content contributors can quickly add what they need to as far as club information, more information about events, and more.</p>
+
+                <p>We used Drupal 7 for these slides and created and designed a custom theme implementation of the Zen Framework for Drupal.</p>
+            </div>
+        </div>
+        <!-- End Row 1 -->
+
+        <div class="row">
+            <div class="col-md-6 col-md-push-6 col-xs-12">
+                <img width="100%" height="auto" src="images/rotc_cwi.png" alt="A project Web Solutions LLC finished for College of Western Idaho for their new Military Science program">
+            </div>
+            <div class="col-md-6 col-md-pull-6 col-xs-12 port-text">
+                <h1>Military Science</h1>
+                <hr>
+                <p><strong>Organization:</strong> College of Western Idaho</p>
+
+                <p><strong>Objective:</strong> Design a page for College of Western Idahos new program Military Science (Army ROTC).</p>
+
+                <p><strong>Results:</strong> We added new elements to CWIs’ program pages, for example, the images that you see in the column layout. We thought this would be appropriate since it would better showcase the program. Since its inception, the program gets 2000+ views per month and has a high interaction rate from our students and potential students.</p>
+            </div>
+        </div>
+        <!-- End Row 2 -->
+
+        <div class="row">
+            <div class="col-md-6 col-xs-12">
+                <img width="100%" height="auto" src="images/policies_wireframe.png" alt="A project Web Solutions LLC designed for College of Western Idahos policies and studenthandbook pages">
+            </div>
+            <div class="col-md-6 col-xs-12 port-text">
+                <h1>Policies Wireframe</h1>
+                <hr>
+                <p><strong>Organization:</strong> College of Western Idaho</p>
+
+                <p><strong>Objective:</strong> Design a wireframe that best displays policies and student handbook information</p>
+
+                <p><strong>Results:</strong> Previously faculty and students would have to download a PDF of the policies and student handbooks. What would happen is users would end up downloading the wrong files. So we designed a layout that would display the information so users could read and make sure they have the right policy. We also recommended and implemented a search function for the policies to improve the user experience.</p>
+            </div>
+        </div>
+        <!-- End Row 3 -->
+
+
+        <div class="row">
+            <div class="col-md-6 col-md-push-6 col-xs-12">
+                <img width="100%" height="auto" src="images/cotspacovers.png" alt="A project Web Solutions LLC finished for Cot Spa Covers">
+            </div>
+            <div class="col-md-6 col-md-pull-6 col-xs-12 port-text">
+                <h1>Cot Spa Covers</h1>
+                <hr>
+                <p><strong>Organization:</strong> Cot Spa Covers</p>
+
+                <p><strong>Objective:</strong> Create a simple business page for Cot Spa Covers that conveyed pertinent information about the business.</p>
+
+                <p><strong>Results:</strong> Cot Spa Covers original website expired, and the company that managed it previously was being elusive. So they came to us and requested a quick website at a very affordable price. We went through a few revisions until our client Cot Spa Covers was satisfied with their new website.</p>
+            </div>
+        </div>
+        <!-- End Row 3 -->
+
+        <div class="row">
+            <div class="col-md-6 col-xs-12">
+                <img width="100%" height="auto" src="images/gentlemansvape.png" alt="A project Web Solutions LLC finished for Gentleman's Vape">
+            </div>
+            <div class="col-md-6 col-xs-12 port-text">
+                <h1>Gentleman's Vape</h1>
+                <hr>
+                <p><strong>Organization:</strong> Gentleman's Vape</p>
+
+                <p><strong>Objective:</strong> Create a business page for a business in Texas that showed in store products and more.</p>
+
+                <p><strong>Results:</strong> The owner of the business was satisfied with their website and loved it. Unfortunately, the FDA released new regulations for vaping and this business is no longer operating due to the cost of these new regulations.</p>
+            </div>
+        </div>
+        <!-- End Row 4 -->
+
+        <div class="row">
+            <div class="col-md-6 col-md-push-6 col-xs-12">
+                <img width="100%" height="auto" src="images/wildlife.png" alt="Web Solutions LLC created this website to bring awareness to endangered animals and we regularly donate to high quality charities.">
+            </div>
+            <div class="col-md-6 col-md-pull-6 col-xs-12 port-text">
+                <h1>Wildlife</h1>
+                <hr>
+                <p><strong>Organization:</strong> Web Solutions Donations</p>
+
+                <p><strong>Objective:</strong> Create a website about the charity that Web Solutions LLC provides.</p>
+
+                <p><strong>Results:</strong> 5% of what you pay for your services goes to wildlife charities. We created a new slideshow layout that conveys information about animals that are on the verge of extinction. Web Solutions, LLC has donated over $300 to charities, and we plan to give much more in the coming months and future.</p>
+            </div>
+        </div>
+        <!-- End Row 5 -->
+    </div>
+
+
+
+    </span>
+
+
+
+    <footer>
+        <div class="container">
+            <h3>© 2017 Web Solutions LLC</h3>
+            <p  class='footer-tag'><strong>Serving Boise, Idaho and the entire treasure valley</strong></p>
+            <a target="_blank" href="https://www.facebook.com/WebSolutionsLLC/"><i class="fa fa-facebook-official fa-3" aria-hidden="true"></i></a>
+        </div>
+        <div class="footer-img">
+            <img src="images/mountains-opt3.png" class="mountain">
+        </div>
+        <div class="footer-contact">
+            <div class="container">
+                <p class="footer-phone">Phone: (208) 614-0423</p>
+                <p class="footer-email">Email: ajdinmasic@boisewebsolutions.com</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-2.2.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--  Main JavaScript  -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
